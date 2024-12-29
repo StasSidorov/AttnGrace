@@ -52,7 +52,49 @@
             {% endunless %}
         {% endif %}
         <div class="product-add">
-          
+          {% if product.handle == "light-liner" %}
+              <div class="pre-order-box">
+                <h2>Pre-Order Now</h2>
+                <p>
+                  Product will be available to ship <strong>starting 1/3/2025</strong>. Please note that if you order with other products, your order will not be shipped until the Liners become available. If you have any questions or need any assistance, please reach out to our team at
+                  <a href="mailto:hello@attgrace.com">hello@attgrace.com</a>.
+                </p>
+              </div>
+             <style>
+                .pre-order-box {
+                    border: 2px solid #d9c93c; /* Золотистая рамка */
+                    padding: 20px;
+                    border-radius: 8px; /* Скругленные углы */
+                    font-family: Arial, sans-serif; /* Основной шрифт */
+                    max-width: 600px;
+                    margin: 20px auto; /* Центрирование на странице */
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень для улучшения вида */
+                }
+
+                .pre-order-box h2 {
+                    font-size: 24px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    color: #000;
+                }
+
+                .pre-order-box p {
+                    font-size: 16px;
+                    line-height: 1.6;
+                    color: #333;
+                }
+
+                .pre-order-box a {
+                    color: #000;
+                    text-decoration: underline;
+                }
+
+                .pre-order-box a:hover {
+                    color: #d9c93c; /* Золотистый цвет при наведении */
+                }
+
+            </style>
+            {% endif %}
           	<!-- ADD TO CART -->
             <input id="AddtoCartBtn"
                     type="submit"
