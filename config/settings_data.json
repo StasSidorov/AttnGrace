@@ -474,7 +474,7 @@
         "type": "home-blog-posts",
         "settings": {
           "heading": "Recommended Reads",
-          "blog": "blog",
+          "blog": "the-edit",
           "post_number": 2,
           "view_all_text": "View all posts",
           "view_all_show": false,
