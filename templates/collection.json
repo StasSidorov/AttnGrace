@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "order": [
     "collection-banner",
@@ -7,8 +16,8 @@
     "collection-banner": {
       "type": "collection-banner",
       "settings": {
-        "heading": "Skin-safe incontinence care, designed by women.",
-        "subheading": "Tough on Leaks. Safe on Skin. Gentler on the Planet.",
+        "heading": "No Leaks. No Odor. No Irritation.",
+        "subheading": "Backed by Our 60-Day Money-Back, Happiness Guarantee",
         "banner_color": "#dedc00"
       }
     },
@@ -28,4 +37,3 @@
     }
   }
 }
-
