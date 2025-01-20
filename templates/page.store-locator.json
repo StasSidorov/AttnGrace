@@ -9,14 +9,14 @@
  */
 {
   "sections": {
-    "page": {
-      "type": "page",
+    "store-locator": {
+      "type": "store-locator",
       "settings": {
       }
     }
   },
   "order": [
-    "page"
+    "store-locator"
   ]
 }
 
