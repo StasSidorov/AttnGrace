@@ -101,11 +101,13 @@
         {% endif %}
         <div class="product-add">
           	<!-- ADD TO CART -->
+            {% if product.tags contains "No_Submit" %}
+            {% else %}
             <input id="AddtoCartBtn"
                     type="submit"
                     class="button product-add-available"
                     value="{% if product.variants.first.inventory_quantity <= 0 %}Pre-Order{% elsif product.tags contains "preorder" %}Pre-Order{% elsif product.tags contains "backorder" %}Backorder{% else %}{{ 'products.product.add_to_cart' | t }}{% endif %}"/>
-
+            {% endif %}
             <input
                     type="submit"
                     class="button product-add-soldout"
